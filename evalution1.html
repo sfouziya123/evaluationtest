@@ -1,0 +1,94 @@
+<!DocType HTML>
+<html>
+	<head>
+		<title>Web page</title>
+		<style>
+			.Navbar
+			{
+				border:solid 2px black;	
+				height:100px;
+				position:fixed;
+				width:100%;
+				top:0px;
+				left:0px;
+				background-color:silver;
+				
+			}
+			p
+			{
+				text-align:center;
+				font-size:30px;	
+				color:white;
+			}
+			.main
+			{
+				border:solid 2px black;
+				height:400px;
+				width:500px;
+				margin-top:80px;
+				margin-left:520px;
+				border-radius:5px;
+				background-color:cadetblue;
+			}
+			input
+			{
+				margin-top:30px;
+				margin-left:110px;
+				padding:10px 40px 10px 40px;
+				border-radius:5px;
+			}
+			button
+			{
+				margin-left:110px;
+				margin-top:30px;
+				padding:10px 110px 10px 110px;
+				border-radius:5px;
+			}
+			h1
+			{
+				margin-top:120px;
+				text-align:center;
+			}
+		
+		</style>
+	
+	</head>
+	<body>
+		<div class = "Navbar">
+			<p><b>User Information</b></p>
+		</div>
+		<h1>Users Information</h1>
+		<div class = "main">
+			<input class = "name" type = "text" placeholder = "Name"><br>
+			<input class = "username" type = "text" placeholder = "UserName"><br>
+			<input class = "email" type = "email" placeholder = "email Id"><br>
+			<input class = "number" type = "number" placeholder = "phoneNumber"><br>
+			<button> Submit</button>
+		</div>
+		<div class = "box">
+		
+		
+		</div>
+	
+	</body>
+	<script>
+		let box = document.getElementByquerySelector(".box");
+		
+		let NameTag = documet.getElementByquerySelector(".name");
+		NameTag.innerText="";
+		let userTag = documet.getElementByquerySelector(".username");
+		
+		let emailTag = documet.getElementByquerySelector(".email");
+		
+		let NumberTag = documet.getElementByquerySelector(".number");
+		 
+		 
+		let create = document.createElement("div");
+		create.setAttribute("type", "text");
+		create.setAttribute("class",element);
+		create.innerText = "Name"; 
+		
+	
+	</script>
+
+</html>
